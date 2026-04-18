@@ -28,6 +28,18 @@ const WISHES = [
     title: "The Inner Peace",
     text: "Amongst the noise of the world, may you always find that quiet place of calm and contentment within yourself.",
     color: "from-pink-400 to-rose-500",
+  },
+  {
+    id: 5,
+    title: "The True Companion",
+    text: "Through every high and every low, thank you for being the constant light in my life. You're simply the best!",
+    color: "from-purple-600 to-pink-500",
+  },
+  {
+    id: 6,
+    title: "The Best Friend",
+    text: "Happy Birthday to the one who makes life an absolute joy. Let's celebrate the person you are and all we've shared!",
+    color: "from-indigo-500 to-purple-500",
   }
 ];
 

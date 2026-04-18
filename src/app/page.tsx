@@ -14,12 +14,13 @@ import FloatingBalloons from "@/components/FloatingBalloons";
 import ConfettiEffect from "@/components/ConfettiEffect";
 import CursorGlow from "@/components/CursorGlow";
 import FunnyCharacters from "@/components/FunnyCharacters";
+import RelationalWishes from "@/components/RelationalWishes";
 import { motion } from "framer-motion";
 
 // --- CONFIGURATION (Personalize here) ---
-const BIRTHDAY_NAME = "Vaishu";
-const SPECIAL_MESSAGE = "You are the center of my universe. Every heartbeat is a celebration of the day you were born. Wishing you a day as luminous as your soul.";
-const NOTE_MESSAGE = "In the symphony of life, your laughter is my favorite melody. May this year be a masterpiece of joy, love, and endless pink skies.";
+const BIRTHDAY_NAME = "Rajeeba - 19.04.2026";
+const SPECIAL_MESSAGE = "To my amazing best friend: You're not just a part of my life, you're the one who makes it an adventure. Wishing you a year as incredible and bright as our friendship.";
+const NOTE_MESSAGE = "From late-night talks to endless laughs, thank you for being the person I can always count on. May your birthday be as wonderful as the bond we share.";
 const MUSIC_URL = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"; // Stable festive/upbeat track
 // ----------------------------------------
 
@@ -61,6 +62,8 @@ export default function Home() {
               />
               
               <InteractiveWishes />
+              
+              <RelationalWishes />
 
               <PoemSection />
 
